@@ -1,1 +1,1 @@
-const CONFIG_BACKEND_URL = 'insert-backend-url:with-port-here'
+const CONFIG_BACKEND_URL = 'https://gimp-tracker-spicy-cumin.herokuapp.com/'
