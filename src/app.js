@@ -158,7 +158,7 @@ function assetsLoaded()
 
     CAMERA.interruptedCameraPathing = true;
 
-    ticker.maxFPS = 144;
+    ticker.maxFPS = 30;
     // render loop
     ticker.add((delta) => 
     {
