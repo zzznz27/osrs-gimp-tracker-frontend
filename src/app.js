@@ -19,8 +19,8 @@ var renderer = new PIXI.Renderer({
     height: window.innerHeight,
 
     antialias:false,
-    resolution: 0.25,
-    autoDensity: false,
+    resolution: 0.5,
+    autoDensity: true,
 })
 
 var stage = new PIXI.Container();
