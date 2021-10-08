@@ -19,7 +19,7 @@ var renderer = new PIXI.Renderer({
     height: window.innerHeight,
 
     antialias:false,
-    resolution: 1,
+    resolution: 0.25,
     autoDensity: false,
 })
 
@@ -170,7 +170,7 @@ function assetsLoaded()
     
         devContainer.visible = DEVELOPER_MODE;
     
-        // renderer.render(stage);
+        renderer.render(stage);
     })
 
     ConnectToBackend();
