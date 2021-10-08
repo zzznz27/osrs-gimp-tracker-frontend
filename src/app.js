@@ -19,7 +19,7 @@ var renderer = new PIXI.Renderer({
     height: window.innerHeight,
 
     antialias:false,
-    resolution: 0.5,
+    resolution: 0.9,
     autoDensity: true,
 })
 
@@ -158,7 +158,7 @@ function assetsLoaded()
 
     CAMERA.interruptedCameraPathing = true;
 
-    ticker.maxFPS = 1;
+    ticker.maxFPS = 144;
     // render loop
     ticker.add((delta) => 
     {
