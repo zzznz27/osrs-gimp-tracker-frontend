@@ -170,7 +170,7 @@ function assetsLoaded()
     
         devContainer.visible = DEVELOPER_MODE;
     
-        renderer.render(stage);
+        // renderer.render(stage);
     })
 
     ConnectToBackend();
